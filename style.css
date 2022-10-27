@@ -1,0 +1,549 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Super Value Deals */
+.bg_superValueDeals {
+    background-color: #eee;
+    padding: 4px 0;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, .6)
+}
+
+/* button styling  */
+.bg_superValueDeals select {
+    outline: none;
+    border: none;
+    background-color: #eee;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, .7)
+}
+
+
+/* header starts from here............. */
+/* header starts from here............. */
+/* header starts from here............. */
+
+.header .logo h3 {
+    font-weight: 700;
+    color: black;
+
+}
+
+.header .search input {
+    outline: none;
+    border-radius: 4px;
+    border: 2px solid #eee;
+    width: 100%;
+    padding: 5px 0 5px 10px;
+    /* transition: all .2s ease-in; */
+}
+
+.header .search input:focus {
+    box-shadow: 0 0 .18rem .15rem rgb(188, 255, 188);
+}
+
+.header .location input {
+    outline: none;
+    border-radius: 4px;
+    border: 2px solid #eee;
+    width: 100%;
+    padding: 5px 0 5px 10px;
+    /* transition: all .2s ease-in; */
+
+}
+
+.header input::placeholder {
+    font-weight: 500;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+
+.header .location input:focus {
+    /* box-shadow: 0 0 .18rem .15rem rgb(188, 255, 188); */
+    box-shadow: 0 0 .18rem .15rem #DAC24D;
+}
+
+
+/* Navigaton bar start from here */
+/* Navigaton bar start from here */
+/* Navigaton bar start from here */
+
+.all_dept_button {
+    /* background-color: rgb(28, 228, 28); */
+    background-color: #FACE1B;
+    border-radius: 4px;
+    text-align: center;
+    padding: 6px 6px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .2s ease;
+    /* letter-spacing: 1px; */
+    height: 40px;
+    overflow-x: hidden;
+}
+
+
+.all_dept_button:hover {
+    background-color: #76771D;
+}
+
+nav {
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav:last-child a {
+    color: black;
+    font-weight: 600;
+}
+
+nav li select {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+nav li select option {
+    border: none;
+
+}
+
+.theli .selectarea .firstoption {
+    display: none;
+}
+
+.theli:hover .selectarea>* {
+    display: block;
+    position: relative;
+    z-index: 200;
+}
+
+
+
+
+
+
+
+/* Hero section starts from here... */
+/* Hero section starts from here... */
+/* Hero section starts from here... */
+
+
+
+.hero .content {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+
+}
+
+.freeShipping {
+    display: inline-block;
+    background-color: #E1922F;
+    border-radius: 7px;
+    padding: 10px;
+    color: #000;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .1s linear;
+}
+
+.freeShipping:hover {
+    transform: scale(1.020);
+    background-color: #f79d30
+}
+
+.content h2 {
+    color: #000;
+    font-weight: 700;
+    font-size: 2.6rem;
+}
+
+.content .desc {
+    color: rgba(0, 0, 0, .6);
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.doller {
+    display: inline-block;
+    color: rgb(28, 228, 28);
+    font-weight: 700;
+    transition: animation .3s linear;
+    animation: scaleDescle 1.33s ease-in-out  infinite;
+}
+
+@keyframes scaleDescle {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.1);
+        color:purple;
+    }
+    100%{transform: scale(1);}
+}
+
+.content button {
+    display: inline-block;
+    border-radius: 5px;
+    border: none;
+    background-color: purple;
+    color: #fff;
+    padding: 8px 10px;
+    position: relative;
+    transition: all .1s linear;
+}
+
+.content button:is(:hover) {
+    transform: scale(1.020);
+    background-color: rgb(151, 8, 151);
+}
+
+.fruit_img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.fruit_img {
+    animation: imgRotate 3.33s linear  infinite;
+    transition: all 1s ease;
+}
+@keyframes imgRotate {
+    0% {transform: skewY(5deg);}
+    
+    50%{transform: skewY(6deg);}
+    100%{transform: skewY(5deg);}
+}
+
+
+
+/* Carousel start from here.. */
+/* Carousel start from here.. */
+/* Carousel start from here.. */
+
+/* .carousel-item{
+    height: 350px;
+    max-height: 450px;
+} */
+.carousel img {
+    height: 100%;
+}
+
+
+.carousel-inner .carousel-item {
+    display: flex;
+}
+
+
+
+
+.pampers {
+    border: 2px solid rgb(28, 228, 28);
+    cursor: pointer;
+    transition: all .2s linear;
+
+}
+
+.pampers:hover {
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, .2)
+}
+
+.pampers:hover img {
+    transform: scale(1.043);
+    ;
+}
+
+
+/* Tow card with basic info  */
+/* Tow card with basic info  */
+/* Tow card with basic info  */
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid rgb(237, 81, 203); */
+    padding: 10px 14px;
+    border-radius: 5px;
+
+}
+
+.wrapper .content_area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('img/leftSideimg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    max-height: 250px;
+    width: 100%;
+    transform: scale(1.1);
+    background-color: #eee;
+    border: 1px solid purple;
+    border-radius: 4px;
+
+}
+
+.wrapper .content_area p {
+    color: purple;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.wrapper .second {
+    background-image: url('img/rightSideimg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    max-height: 250px;
+    width: 100%;
+    background-color: #eee;
+
+}
+
+.wrapper img {
+    /* height: 200px; */
+    object-fit: cover;
+    /* width: 90%; */
+}
+
+
+.btn_shopNow {
+    display: inline-block;
+    border-radius: 5px;
+    border: none;
+    background-color: purple;
+    color: #fff;
+    padding: 8px 10px;
+    position: relative;
+    transition: all .1s linear;
+}
+
+.btn_shopNow:is(:hover) {
+    transform: scale(1.020);
+    background-color: rgb(151, 8, 151);
+}
+
+
+/* Popular products */
+
+.popular_pro_img img {
+
+    width: 100%;
+}
+
+.product_wrapper {
+
+    position: relative;
+    /* border: 1px solid #eee; */
+    border-radius: 4px;
+    margin: 0 0 30px 0;
+    cursor: pointer;
+    width: 100%;
+    height: 420px;
+    max-height: 450px;
+
+
+}
+
+.overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #eee;
+    border-radius: 4px;
+
+}
+
+.overlay:hover {
+    border: 1px solid rgb(43, 255, 0);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.product_wrapper .sale {
+    padding: 2px 3px;
+    border-radius: 4px;
+    background-color: rgb(43, 255, 0);
+    margin-top: 4px;
+}
+
+/* .product_wrapper:hover{
+    border: 1px solid rgb(13, 197, 13);
+} */
+.product_wrapper p {
+    margin: 0;
+}
+
+
+
+.hoverItem {
+    display: flex;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    /* top:45%;
+    left:26%; */
+
+}
+
+.hoverItem .main>span {
+    background-color: rgb(90, 244, 76);
+    padding: 10px;
+    border-radius: 8px;
+
+
+}
+
+.overlay:hover .hoverItem {
+    display: flex;
+}
+
+.add_button {
+    background-color: rgb(43, 255, 0);
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    padding: 3px 7px;
+    color: #fff;
+    font-weight: 700;
+}
+
+@media (max-width:768px) {
+    * {
+        font-size: 10px;
+    }
+
+    .product_wrapper {
+        height: 238px;
+        max-height: 238px;
+    }
+}
+
+
+
+
+@media (max-width:575px) {
+    .product_wrapper {
+        /* margin-top: 120px; */
+    }
+}
+
+
+/* Daily Best sales */
+/* Daily Best sales */
+/* Daily Best sales */
+
+.DailyCard {
+
+    position: relative;
+    background-repeat: no-repeat;
+    height: 430px;
+    max-height: 420px;
+    width: auto;
+    border: 1px solid green;
+    /* background: linear-gradient(120deg, purple, lightgreen, yellow); */
+    background-color: #E5AD50;
+    border-radius: 4px;
+    padding: 10px 12px;
+    /* z-index: 200; */
+}
+
+.DailyCard .desc {
+    color: #fff;
+    font-weight: 600;
+}
+
+.DailyCard button {
+    position: absolute;
+    left: 0;
+    top: 86%;
+    width: 97%;
+    padding: 10px 5px;
+    margin: 5px;
+    border-radius: 4px;
+    background-color: rgb(90, 244, 76);
+}
+
+@media (max-width:768px) {
+    .DailyCard {
+        position: relative;
+        height: 238px;
+        max-height: 238px;
+        padding: 5px;
+    }
+
+    .DailyCard button {
+        position: absolute;
+        left: -1;
+        top: 80%;
+    }
+
+    .DailyCard button {
+        width: 94%;
+    }
+}
+
+
+
+
+/* Information section */
+/* Information section */
+.info{
+    box-shadow: 0 0 8px 3px #F57256;
+    padding:10px;
+    text-align: justify;
+    font-weight: 200;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    background: url(img/fresh-fruits.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fill;
+    height: 200px;
+    width: 100%;
+}
+
+
+
+
+/* footer startssss */
+/* footer startssss */
+footer .copyRight{
+    padding:20px 0;
+    font-size: 12px;
+    font-weight: 600;
+    color:rgba(0, 0, 0, .3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* footer .sMedia a span{
+    display: inline-block;
+} */
+footer .sMedia{
+    padding:20px 0;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
